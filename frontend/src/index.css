@@ -11,8 +11,15 @@
 @theme {
   --font-primary: "Primary-normal", sans-serif;
   --font-bold: "Primary-bold", sans-serif;
-  --font-manrope:"Manrope", sans-serif
+  --font-manrope:"Manrope", sans-serif;
+  --color-isblue:#090B48;
+  --color-iswhite:#FFFCF8;
 }
+
+
+
+
+
 html {
   font-size: calc(0.625rem + 0.41666666666666663vw);
 }
@@ -31,6 +38,9 @@ html {
     font-size: calc(0.7494769874476988rem + 0.8368200836820083vw);
   }
 }
+
+
+
 /* body{
   font-family: "Primary-normal";
 } */
