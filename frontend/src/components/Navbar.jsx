@@ -19,7 +19,7 @@ const Navbar = () => {
 
       <div
         className={`
-          w-[462px]
+          w-[322.56px] md:w-[462px]
           bg-[hsla(238,78%,16%,1)]
           rounded-2xl
           transition-all
@@ -67,7 +67,12 @@ const Navbar = () => {
           w-[193.13px] md:w-[299px]
           bg-[hsla(238,78%,16%,1)]
           rounded-2xl
-        "></div>
+          flex
+          justify-center
+          items-center
+        ">
+            <h1 className="text-white text-sm md:text-[17.5px] text-center font-manrope">[ Get free consultation ]</h1>
+        </div>
 
         <div
           onClick={() => setIsOpen(!isOpen)}
@@ -76,7 +81,7 @@ const Navbar = () => {
             h-[51.36px] md:w-[63px]
             bg-[hsla(211,100%,98%,1)]
             rounded-2xl
-            text-5xl
+            text-4xl
             text-[hsla(238,78%,16%,1)]
             flex
             justify-center
