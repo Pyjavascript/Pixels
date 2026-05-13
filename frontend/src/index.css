@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import "tailwindcss";
 @font-face {
   font-family: "Primary-normal";
@@ -10,6 +11,7 @@
 @theme {
   --font-primary: "Primary-normal", sans-serif;
   --font-bold: "Primary-bold", sans-serif;
+  --font-manrope:"Manrope", sans-serif
 }
 html {
   font-size: calc(0.625rem + 0.41666666666666663vw);

@@ -4,7 +4,7 @@ import Hero from './HomeSections/hero'
 const Home = () => {
   return (
     <>
-    <h1 className='font-bold text-[90px]'>I am Home</h1>
+    <h1 className='font-manrope  text-xl'>I am Home</h1>
     <Hero />
     </>
   )
