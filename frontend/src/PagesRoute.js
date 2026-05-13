@@ -1,6 +1,6 @@
-import Home from "./pages/Home";
-import Projects from "./pages/Projects";
-import Blogs from "./pages/Blogs";
-import SSI from "./pages/SSI";
+import Home from "./pages/Home-page/Home";
+import Projects from "./pages/projects/Projects";
+import Blogs from "./pages/Blogs/Blogs";
+import SSI from "./pages/SSI/SSI";
 
 export {Home, Projects, Blogs, SSI}; 
