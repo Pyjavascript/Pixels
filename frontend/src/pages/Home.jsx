@@ -2,7 +2,9 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className="font-normal">quick</div>
+    <>
+    <h1 className='font-bold'>I am Home</h1>
+    </>
   )
 }
 
