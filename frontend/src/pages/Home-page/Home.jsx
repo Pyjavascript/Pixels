@@ -1,11 +1,13 @@
 import React from 'react'
 import Hero from './HomeSections/hero'
+import Navbar from '../../components/Navbar'
 
 const Home = () => {
   return (
     <>
-    <h1 className='font-manrope  text-xl'>I am Home</h1>
-    <Hero />
+    <div className='h-screen w-screen bg-amber-500'>
+      <Navbar/>
+    </div>
     </>
   )
 }
