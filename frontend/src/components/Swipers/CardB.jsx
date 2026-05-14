@@ -1,4 +1,5 @@
 import React from 'react'
+import ArrowRight from './swiperimgs/ArrowRight.svg'
 
 const CardB = () => {
   return (
@@ -31,11 +32,20 @@ const CardB = () => {
             </div>
           </div>
         </div>
-        <div className='h-[75.71px] w-[128px] mt-[4.68px] bg-[hsla(235,_100%,_97%,_0.4)] rounded-[15.61px]'>
+      <div className='flex gap-[5.46px]'>
+          <div className='h-[75.71px] w-[128px] mt-[4.68px] bg-[hsla(235,_100%,_97%,_0.4)] rounded-[15.61px] p-[7.81px_6.24px] flex justify-start items-start gap-[6.24px] relative'>
           <div className='w-[57.76px] h-[63.22px] bg-white rounded-[15.61px]'>
-            <p className='font-bold text-[19.51px] leading-[0.3] '>Stats<br/>2026</p>
           </div>
+           <p className='font-bold text-[19.51px] leading-[0.7] text-[hsla(238,_78%,_16%,_1)] mt-[5px]'>Stats<br/>2026</p>
+           <img src={ArrowRight} alt="click" className='absolute right-[6.24px] bottom-[7.81px]'/>
         </div>
+        <div className='h-[75.71px] w-[128px] mt-[4.68px] bg-[hsla(235,_100%,_97%,_0.4)] rounded-[15.61px] p-[7.81px_6.24px] flex justify-start items-start gap-[6.24px] relative'>
+          <div className='w-[57.76px] h-[63.22px] bg-white rounded-[15.61px]'>
+          </div>
+           <p className='font-bold text-[19.51px] leading-[0.7] text-[hsla(238,_78%,_16%,_1)] mt-[5px]'>Colours<br/>2026</p>
+           <img src={ArrowRight} alt="click" className='absolute right-[6.24px] bottom-[7.81px]'/>
+        </div>
+      </div>
       </div>
     </div>
   )

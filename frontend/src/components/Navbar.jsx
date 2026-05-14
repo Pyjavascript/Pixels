@@ -1,22 +1,53 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import logo from "../assets/imgs/logo.svg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [showNav, setShowNav] = useState(false);
+
+  const lastScrollY = useRef(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY < lastScrollY.current) {
+        setShowNav(true);
+      } else {
+        setShowNav(false);
+      }
+
+      lastScrollY.current = currentScrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <div className="
-      fixed
-      z-[10]
-      bottom-[10%]
-      left-1/2
-      -translate-x-1/2
-      flex
-      flex-col
-      justify-center
-      items-center
-      gap-2
-    ">
+    <div
+      className={`
+        fixed
+        z-[999]
+        bottom-[10%]
+        left-1/2
+        flex
+        flex-col
+        justify-center
+        items-center
+        gap-2
+        duration-500
+        transition-all
+        ${
+          showNav
+            ? "-translate-x-1/2 translate-y-0 opacity-100"
+            : "-translate-x-1/2 translate-y-[200px] opacity-0"
+        }
+      `}
+    >
 
       <div
         className={`

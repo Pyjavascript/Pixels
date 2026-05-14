@@ -8,7 +8,7 @@ import SwiperCont from '../../components/SwiperCont'
 const SSI = () => {
   return (
     <>
-      <main className="bg-blue-500 w-auto h-auto relative p-[60px] flex flex-col justify-center items-center gap-[60px]">
+      <main className="bg-blue-500 w-auto  h-auto relative p-[60px] flex flex-col justify-center items-center gap-[60px]">
         <div className="absolute top-[60px] left-[60px] flex flex-col gap-[40px]">
           <div className="flex flex-col gap-[20px] text-white">
             <p className="font-manrope w-[600] text-[18px] tracking-[0.72px]">
