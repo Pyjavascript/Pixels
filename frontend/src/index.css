@@ -61,3 +61,82 @@ html {
   width: 35px !important;
   opacity: 1 !important;
 }
+
+.dropdown::-webkit-scrollbar{
+  display: none;
+}
+.calendar-hide::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.calendar-hide::-webkit-inner-spin-button {
+  display: none;
+}
+
+.calendar-hide {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.time-hide::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.time-hide::-webkit-inner-spin-button {
+  display: none;
+}
+
+.time-hide {
+  appearance: none;
+  -webkit-appearance: none;
+}
+/* .input{
+  width: 380px;
+  padding:16px 20px;
+  border-radius:20px;
+  background:rgba(255,255,255,0.1);
+  border:1px solid rgba(255,255,255,0.2);
+  outline:none;
+  color:white;
+}
+
+.input::placeholder{
+  color:rgba(255,255,255,0.5);
+} */
+/* 
+.inputStyle {
+  width: 100%;
+  padding: 18px 22px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  outline: none;
+  color: white;
+  backdrop-filter: blur(20px);
+}
+
+.inputStyle::placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.primaryBtn {
+  width: 100%;
+  padding: 16px;
+  border-radius: 999px;
+  background: #0a1b72;
+  transition: 0.3s;
+}
+
+.primaryBtn:hover {
+  transform: scale(1.02);
+}
+
+.topBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */

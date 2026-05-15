@@ -3,11 +3,17 @@ import Hero from './HomeSections/Hero'
 import Navbar from '../../components/Navbar'
 import SSI from '../SSI/SSI'
 
+
+
+//Form 
+import Forms from '../../components/Forms/Forms.jsx'
+
 const Home = () => {
   return (
     <>
     <div className=' h-auto overflow-x-hidden'>
-      <Navbar/>
+      <Forms/>
+      {/* <Navbar/> */}
       <Hero />
       <SSI/>
     </div>
