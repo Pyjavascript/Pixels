@@ -8,32 +8,32 @@ import SwiperCont from '../../components/SwiperCont'
 const SSI = () => {
   return (
     <>
-      <main className="bg-blue-500 w-auto  h-auto relative p-[60px] flex flex-col justify-center items-center gap-[60px]">
-        <div className="absolute top-[60px] left-[60px] flex flex-col gap-[40px]">
-          <div className="flex flex-col gap-[20px] text-white">
-            <p className="font-manrope w-[600] text-[18px] tracking-[0.72px]">
+      <main className="bg-blue-500 w-auto  h-auto relative p-[15px] md:p-[3.75rem] flex flex-col justify-center items-center gap-[3.75rem]">
+        <div className="absolute  top-[3.75rem] left-[15px] md:left-[3.75rem] flex flex-col gap-[0.8rem] gap-[20px] md:gap-[40px]">
+          <div className="flex flex-col gap-[11px] md:gap-[0.813rem] md:gap-[1rem] text-white">
+            <p className="font-manrope w-[600] text-[0.9rem] md:text-[1.125rem] tracking-[-0.008rem]">
               Download your App Today
             </p>
-            <h1 className="font-bold text-[75px] leading-[80%] tracking-[-3px]">
+            <h1 className="font-bold text-[3.125rem] md:text-[4.6rem] leading-[80%] tracking-[-2px] md:tracking-[-3px]">
               30+ High-impact
               <br />
               service bundles
             </h1>
           </div>
-          <div className="w-[180px] h-[70px] bg-[hsla(238,61%,94%,0.6)] flex justify-start items-center gap-[6px] rounded-[24.19px] p-[8.84px]">
-            <div className="w-[52.08px] h-[52.5px] rounded-[20.46px] bg-white opacity-[60%]"></div>
+          <div className="w-fit  h-[70px]  bg-[hsla(238,61%,94%,0.6)] flex justify-start items-center gap-[12px] rounded-[24.19px] p-[6px] md:p-[10px] ">
+            <div className="w-[52px] h-[52px] rounded-[15px] md:rounded-[20px] bg-white opacity-[60%]"></div>
 
-            <div className="flex flex-col gap-[5px] text-white ">
-              <p className="font-bold text-[18px] tracking-[0.72px]">
+            <div className="flex flex-col gap-[5px] md:gap-[10px] pr-[20px] text-white ">
+              <p className="font-bold text-[20px] md:text-[18px]  w-[66px] md:w-[100%] tracking-[-0.72px] leading-[0.85] md:leading-[1]">
                 Schedule Demo
               </p>
-              <p className="font-bold text-[12px]  tracking-[0.24px]">
+              <p className="font-bold text-[12px]  tracking-[0.24px] leading-[1]  md:leading-[0.8]">
                 08 March, 2026
               </p>
             </div>
           </div>
         </div>
-        <div className="flex gap-[40px] text-white font-bold text-[30px] leading-[180%] tracking-[-0.5px]">
+        <div className="flex gap-[40px] pt-[320px] xl:pt-[0px] text-white font-bold text-[15px]  md:text-[30px] leading-[180%] tracking-[-0.5px]">
           {/* LEFT COLUMN */}
           <div className="flex flex-col justify-between items-end mt-[-10px]">
             <p>Brand strategy</p>
@@ -78,7 +78,7 @@ const SSI = () => {
             <p>Designz</p>
           </div>
         </div>
-        <div className="font-bold uppercase text-white text-[120px] leading-[90%] text-center">
+        <div className="font-bold uppercase text-white text-[70px] md:text-[120px] leading-[90%] text-center">
           <p className="tracking-[-4.8px]">Solution</p>
           <p className="tracking-[-4.8px]">Integration</p>
           <p className="tracking-[-4.8px]">Services</p>
@@ -98,7 +98,7 @@ const SSI = () => {
              <img src={Arrow} alt="Arrow" className="pt-[10px]" />
           </div>
         </div>
-        <div className="mt-[150.56px] h-[590px] w-full bg-[hsla(48,_9%,_89%,_1)] rounded-[62.77px] flex justify-center items-center relative">
+        <div className="mt-[150.56px] h-[590px] w-full bg-[hsla(48,_9%,_89%,_1)] rounded-[44px] md:rounded-[62.77px] flex justify-center items-center relative">
           <img src={SSIIMG} alt="Logo" />
           <div className="absolute bottom-[30.34px] right-[30.34px] w-[212.36px] h-[80.55px] bg-[rgba(255,255,255,0.2)] rounded-[29.29px] flex justify-center items-center gap-[8.37px]">
             <div className="">

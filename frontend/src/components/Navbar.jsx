@@ -91,7 +91,9 @@ const Navbar = () => {
           justify-center
           items-center
         ">
-          <img src={logo} alt="logo" />
+          <div className="w-[22px] md:w-[2.063rem] aspect-square">
+          <img src={logo} alt="logo" className="object-fit"/>
+          </div>
         </div>
 
         <div className="
